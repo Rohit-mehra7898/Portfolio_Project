@@ -47,6 +47,7 @@
     margin: 147px auto;
     display: flex;
     justify-content: space-around;
+    flex-wrap: nowrap;
 
 }
 
@@ -102,11 +103,11 @@
     height: 58vh;
 }
 
-/*contactpage css */
+/*contactpage css form */
 
 .contactForm{
     font-family: 'Roboto Slab', serif;
-    padding: 110px;
+    padding: 40px;
 }
 .contactForm h2{
     margin: 40px 0;
@@ -117,6 +118,9 @@
 
 .contactForm form div{
     padding: 10px;
+}
+
+.mb3{
     display: flex;
     flex-direction: column;
 }
@@ -129,6 +133,50 @@
 
 .form-control{
     width: 20vw;
-    font-size: 20px;
+    font-size: 17px;
     border-radius: 4px;
+}
+
+.form-check{
+    display: flex;
+    flex-direction: row;
+}
+
+.mb-3{
+    
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textarea{
+    font-size: 17px;
+    width: 20vw;
+    height: 13vh;
+}
+
+.button1{
+    width: 80px;
+    height: 34px;
+    border-radius: 11px;
+    margin: -6px;
+    cursor: pointer;
+    background-color: rgb(34, 95, 188);
+    color: white;
+}
+
+.button1:hover{
+    background-color: white;
+    color: rgb(34, 95, 188);
+}
+
+@media (max-width: 543px) {
+*{
+    background-color: red;
+}
+.sidebar {
+    transform: translate(-430px, 0px);
+    position: absolute;
+}
+
 }

@@ -27,20 +27,30 @@
             <div class="contactForm">
                 <h2>Contact me</h2>
                 <form>
-                    <div class="mb-3">
+                    <div class="mb3">
+                        <label for="clientname" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="clientname" >
+                    </div>
+                    <div class="mb3">
                         <label for="clientemail" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                        <input type="email" class="form-control" id="clientemail" >
+                    </div>
+                    <div class="mb3">
+                        <label for="clientphone" class="form-label">Phone number</label>
+                        <input type="phone" class="form-control" id="clientphone" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
                     </div>
-                    <div class="mb-3">
-                        <label for="clientphone" class="form-label">Phone number</label>
-                        <input type="phone" class="form-control" id="clientphone">
+                    <div class="mb3">
+                        <label for="clientmessage" class="form-label">Message</label>
+                        <textarea type="text" class="textarea" id="clientmessage"></textarea>
                     </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="isclient">
                         <label class="form-check-label" for="isclient">I want you to work on a project with me.</label>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <div>
+                        <button type="submit" class="button1">Submit</button>
+                    </div>
                 </form>
             </div>
         </div>
