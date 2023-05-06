@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@100&family=Rubik&display=swap');
+
 
 * {
     margin: 0;
@@ -6,26 +7,31 @@
 }
 
 .sidebar {
-    background-color: red;
-    width: 10vw;
+    background-color: rgb(216, 210, 210);
+    width: 434px;
+    font-family: 'Roboto Slab', sans-serif;
     height: 100vh;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 .sidebar nav {
     padding: 13px;
-
 }
 
 .sidebar nav li {
     list-style: none;
-    font-size: 30px;
-    padding: 23px 0 2px 0;
+    font-size: 21px;
+    padding: 28px 6px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
 }
 
 .main {
-    background-color: yellow;
+    /* background-color: yellow;*/
     width: 90vw;
+    height: 100vh;
 }
 
 .container {
@@ -35,9 +41,94 @@
 }
 
 .infoContainer {
-    background-color: green;
-    height: 78vh;
+    /*background-color: green;*/
+    height: 58vh;
     width: 80vw;
     margin: 147px auto;
     display: flex;
+    justify-content: space-around;
+
+}
+
+.devInfo {
+    padding: 50px;
+    margin: 0 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+}
+
+.Hello {
+    font-size: 50px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+.about {
+    font-size: 20px;
+}
+
+.moreAbout {
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons button {
+    padding: 9px;
+    border-radius: 20px;
+    background-color: rgb(34, 95, 188);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
+    margin: 0 12px;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: rgb(34, 95, 188);
+}
+
+.devPic img {
+    height: 58vh;
+}
+
+/*contactpage css */
+
+.contactForm{
+    font-family: 'Roboto Slab', serif;
+    padding: 110px;
+}
+.contactForm h2{
+    margin: 40px 0;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+
+}
+
+.contactForm form div{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 -7px;
+}
+
+.form-control{
+    width: 20vw;
+    font-size: 20px;
+    border-radius: 4px;
 }
