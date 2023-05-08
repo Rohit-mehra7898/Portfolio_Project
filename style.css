@@ -8,9 +8,31 @@
 
 .sidebar {
     background-color: rgb(216, 210, 210);
-    width: 434px;
+    position: absolute;
     font-family: 'Roboto Slab', sans-serif;
     height: 100vh;
+    transition: transform 0.35s ease-in;
+}
+
+.sidebarGo {
+    transform: translate(-430px, 0px);
+    position: absolute;
+}
+
+/* hamburger css */
+.hamb {
+    position: absolute;
+    left: 13px;
+    top: 11px;
+    cursor: pointer;
+}
+
+.cross{
+    margin-left: 107px;
+
+}
+.ham{
+    margin-top: 2px
 }
 
 .sidebar nav {
@@ -172,11 +194,42 @@
 
 @media (max-width: 543px) {
 *{
-    background-color: red;
+    /* background-color: red; */
 }
-.sidebar {
+/* .sidebarGo {
     transform: translate(-430px, 0px);
     position: absolute;
+} */
+.devPic{
+    display: none;
+}
 }
 
+/* footer css */
+.footer{
+    background-color: red;
+    display: flex; 
+    justify-content: space-around;
+    /* align-items: center; */
+    height: 60px;
+}
+
+.btnf{
+    /* width: 2rem; */
+}
+
+.btn{
+    width: 35px;
+}
+.linked{
+width: 28px;
+margin-bottom: 1px;
+}
+
+.insta{
+    width: 30px;
+}
+
+.up{
+    margin-top: 2px;
 }
