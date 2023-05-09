@@ -205,31 +205,3 @@
 }
 }
 
-/* footer css */
-.footer{
-    background-color: red;
-    display: flex; 
-    justify-content: space-around;
-    /* align-items: center; */
-    height: 60px;
-}
-
-.btnf{
-    /* width: 2rem; */
-}
-
-.btn{
-    width: 35px;
-}
-.linked{
-width: 28px;
-margin-bottom: 1px;
-}
-
-.insta{
-    width: 30px;
-}
-
-.up{
-    margin-top: 2px;
-}
