@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@100&family=Rubik&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #798478;
+}
+
+.sidebar {
+    border: 1px solid #8A9489;
+    
+    background-color: #798478;
+    position: absolute;
+    font-family: 'Roboto Slab', sans-serif;
+    height: 100vh;
+    transition: transform 0.35s ease-in;
+}
+
+.sidebarGo {
+    transform: translate(-430px, 0px);
+    position: absolute;
+}
+
+/* hamburger css */
+.hamb {
+    position: relative;
+    left: 13px;
+    top: 11px;
+    cursor: pointer;
+}
+
+.cross{
+    margin-left: 107px;
+
+}
+.ham{
+    margin-top: 2px
+}
+
+.sidebar nav {
+    padding: 13px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 21px;
+    padding: 28px 6px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow;*/
+    width: 90vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+
+
+}
+
+.infoContainer {
+    /*background-color: green;*/
+    height: 58vh;
+    width: 80vw;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+}
+
+.devInfo {
+    padding: 50px;
+    margin: 0 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+}
+
+.Hello {
+    font-size: 50px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+.about {
+    font-size: 20px;
+}
+
+.moreAbout {
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons button {
+    padding: 9px;
+    border-radius: 20px;
+    background-color: rgb(34, 95, 188);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
+    margin: 0 12px;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: rgb(34, 95, 188);
+}
+
+.devPic img {
+    width: 27rem;
+    border: black solid;
+    border-radius: 8rem;
+}
+
+/*contactpage css form */
+
+.contactForm{
+    font-family: 'Roboto Slab', serif;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.contactForm h2{
+    margin: 0 0 4rem 0;
+    font-family: 'Rubik', sans-serif;
+    position: absolute;
+    left: 44rem;
+    top: 1rem;
+}
+
+.contactForm form div{
+    padding: 10px;
+}
+
+.mb3{
+    display: flex;
+    flex-direction: column;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 -7px;
+}
+
+.form-control{
+    width: 20vw;
+    font-size: 17px;
+    border-radius: 4px;
+}
+
+.form-check{
+    display: flex;
+    flex-direction: row;
+}
+
+.mb-3{
+    
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textarea{
+    font-size: 17px;
+    width: 20vw;
+    height: 13vh;
+}
+
+.button1{
+    width: 80px;
+    height: 34px;
+    border-radius: 11px;
+    margin: -6px;
+    cursor: pointer;
+    background-color: rgb(34, 95, 188);
+    color: white;
+}
+
+.button1:hover{
+    background-color: white;
+    color: rgb(34, 95, 188);
+}
+
+@media (max-width: 543px) {
+*{
+    /* background-color: red; */
+}
+/* .sidebarGo {
+    transform: translate(-430px, 0px);
+    position: absolute;
+} */
+.devPic{
+    display: none;
+}
+}
+
+.introContainer{
+    display: flex;
+    margin: 2rem;
+    text-align: center;
+}
+
+.IntroDev h3{
+    font-size: 2rem;
+
+}
+
+.src{
+    width: 17rem;
+    border: white solid;
+    border-radius: 9rem;
+}
+
+.IntroDev p{
+    font-size: 1.5rem;
+}
+
+.blogContainer{
+    padding: 45px 35px;
+    margin: 31px 97px;
+}
+
+.titlee{
+    
+    /* position: absolute;
+    left: 44rem;
+    top: 1rem; */
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 2rem 45%;
+    display: inline-block
+}
+
+.titlee a{
+    text-decoration: none;
+    color: black;
+}
+
+.blogs i{
+    font-size: small;
+    padding: 5px;
+}
+
+.blogs p{
+    font-size: large;
+}
+
+.blogs{
+    padding: 2rem;
+}
+
+.serviceContainer{
+    display: flex;
+    
+    
+}
+
+.serv{
+    padding: 5rem 4rem;
+    text-align: center;
+}
+
+.serv img{
+    width: 20rem;
+    border: black solid;
+    border-radius: 30px;
+}
+
+.buttonserv {
+    margin-top: 1rem;
+    margin-left: 40rem;
+}
+
+.buttonserv button {
+    padding: 9px;
+    border-radius: 20px;
+    background-color: rgb(34, 95, 188);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
+    margin: 0 12px;
+}
+
+.buttonserv button:hover{
+    background-color: white;
+    color: rgb(34, 95, 188);
+}
